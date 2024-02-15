@@ -1,97 +1,103 @@
 failed to get console mode for stdout: The handle is invalid.
-failed to get console mode for stdout: The handle is invalid.
 [1A[1B[0G[?25l[+] Running 0/0
- [33m-[0m Network dockervalidation_default  Creating[34m0.1s [0m
+ - Network gitdemo_default  Creating[34m0.0s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network gitdemo_default  Creating[34m0.1s [0m
 [?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
- [32m✔[0m Network dockervalidation_default  [32mCreated[0m[34m0.1s [0m
- [33m-[0m Container selenium-hub            Creating[34m0.1s [0m
+ [32m✔[0m Network gitdemo_default  [32mCreated[0m[34m0.2s [0m
+ - Container selenium-hub   Creating[34m0.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Network gitdemo_default  [32mCreated[0m[34m0.2s [0m
+ - Container selenium-hub   Creating[34m0.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Network gitdemo_default  [32mCreated[0m[34m0.2s [0m
+ - Container selenium-hub   Creating[34m0.3s [0m
 [?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
- [32m✔[0m Network dockervalidation_default      [32mCreated[0m[34m0.1s [0m
- [32m✔[0m Container selenium-hub                [32mCreated[0m[34m0.2s [0m
- [33m-[0m Container dockervalidation-chrome-1   Creating[34m0.0s [0m
- [33m-[0m Container dockervalidation-edge-1     Creating[34m0.0s [0m
- [33m-[0m Container dockervalidation-firefox-1  Creating[34m0.0s [0m
+ [32m✔[0m Network gitdemo_default      [32mCreated[0m[34m0.2s [0m
+ [32m✔[0m Container selenium-hub       [32mCreated[0m[34m0.3s [0m
+ - Container gitdemo-firefox-1  Creating[34m0.1s [0m
+ - Container gitdemo-chrome-1   Creating[34m0.1s [0m
+ - Container gitdemo-edge-1     Creating[34m0.1s [0m
 [?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 2/5
- [32m✔[0m Network dockervalidation_default      [32mCreated[0m[34m0.1s [0m
- [32m✔[0m Container selenium-hub                [32mCreated[0m[34m0.2s [0m
- [33m-[0m Container dockervalidation-chrome-1   Creating[34m0.1s [0m
- [33m-[0m Container dockervalidation-edge-1     Creating[34m0.1s [0m
- [33m-[0m Container dockervalidation-firefox-1  Creating[34m0.1s [0m
+ [32m✔[0m Network gitdemo_default      [32mCreated[0m[34m0.2s [0m
+ [32m✔[0m Container selenium-hub       [32mCreated[0m[34m0.3s [0m
+ - Container gitdemo-firefox-1  Creating[34m0.2s [0m
+ - Container gitdemo-chrome-1   Creating[34m0.2s [0m
+ - Container gitdemo-edge-1     Creating[34m0.2s [0m
 [?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 2/5
- [32m✔[0m Network dockervalidation_default      [32mCreated[0m[34m0.1s [0m
- [32m✔[0m Container selenium-hub                [32mCreated[0m[34m0.2s [0m
- [33m-[0m Container dockervalidation-chrome-1   Creating[34m0.2s [0m
- [33m-[0m Container dockervalidation-edge-1     Creating[34m0.2s [0m
- [33m-[0m Container dockervalidation-firefox-1  Creating[34m0.2s [0m
+ [32m✔[0m Network gitdemo_default      [32mCreated[0m[34m0.2s [0m
+ [32m✔[0m Container selenium-hub       [32mCreated[0m[34m0.3s [0m
+ - Container gitdemo-firefox-1  Creating[34m0.3s [0m
+ - Container gitdemo-chrome-1   Creating[34m0.3s [0m
+ - Container gitdemo-edge-1     Creating[34m0.3s [0m
 [?25h[1A[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 5/5[0m
- [32m✔[0m Network dockervalidation_default      [32mCreated[0m[34m0.1s [0m
- [32m✔[0m Container selenium-hub                [32mCreated[0m[34m0.2s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mCreated[0m[34m0.2s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mCreated[0m[34m0.2s [0m
- [32m✔[0m Container dockervalidation-firefox-1  [32mCreated[0m[34m0.2s [0m
+ [32m✔[0m Network gitdemo_default      [32mCreated[0m[34m0.2s [0m
+ [32m✔[0m Container selenium-hub       [32mCreated[0m[34m0.3s [0m
+ [32m✔[0m Container gitdemo-firefox-1  [32mCreated[0m[34m0.3s [0m
+ [32m✔[0m Container gitdemo-chrome-1   [32mCreated[0m[34m0.3s [0m
+ [32m✔[0m Container gitdemo-edge-1     [32mCreated[0m[34m0.3s [0m
 [?25hAttaching to chrome-1, edge-1, firefox-1, selenium-hub
-selenium-hub  | 2024-02-15 16:38:59,956 INFO Included extra file "/etc/supervisor/conf.d/selenium-grid-hub.conf" during parsing
-selenium-hub  | 2024-02-15 16:38:59,984 INFO RPC interface 'supervisor' initialized
-selenium-hub  | 2024-02-15 16:38:59,984 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-selenium-hub  | 2024-02-15 16:38:59,988 INFO supervisord started with pid 8
-selenium-hub  | 2024-02-15 16:39:00,994 INFO spawned: 'selenium-grid-hub' with pid 9
+selenium-hub  | 2024-02-15 21:37:08,810 INFO Included extra file "/etc/supervisor/conf.d/selenium-grid-hub.conf" during parsing
+selenium-hub  | 2024-02-15 21:37:08,815 INFO RPC interface 'supervisor' initialized
+selenium-hub  | 2024-02-15 21:37:08,815 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+selenium-hub  | 2024-02-15 21:37:08,816 INFO supervisord started with pid 8
+edge-1        | 2024-02-15 21:37:09,351 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome-1      | 2024-02-15 21:37:09,352 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+firefox-1     | 2024-02-15 21:37:09,353 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+firefox-1     | 2024-02-15 21:37:09,356 INFO RPC interface 'supervisor' initialized
+firefox-1     | 2024-02-15 21:37:09,356 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+edge-1        | 2024-02-15 21:37:09,357 INFO RPC interface 'supervisor' initialized
+chrome-1      | 2024-02-15 21:37:09,357 INFO RPC interface 'supervisor' initialized
+chrome-1      | 2024-02-15 21:37:09,357 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+edge-1        | 2024-02-15 21:37:09,357 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+firefox-1     | 2024-02-15 21:37:09,358 INFO supervisord started with pid 8
+chrome-1      | 2024-02-15 21:37:09,359 INFO supervisord started with pid 7
+edge-1        | 2024-02-15 21:37:09,360 INFO supervisord started with pid 8
+selenium-hub  | 2024-02-15 21:37:09,818 INFO spawned: 'selenium-grid-hub' with pid 9
 selenium-hub  | Tracing is disabled
-selenium-hub  | 2024-02-15 16:39:01,028 INFO success: selenium-grid-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
-firefox-1     | 2024-02-15 16:39:01,206 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
-firefox-1     | 2024-02-15 16:39:01,227 INFO RPC interface 'supervisor' initialized
-firefox-1     | 2024-02-15 16:39:01,227 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-firefox-1     | 2024-02-15 16:39:01,230 INFO supervisord started with pid 8
-chrome-1      | 2024-02-15 16:39:01,416 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
-chrome-1      | 2024-02-15 16:39:01,436 INFO RPC interface 'supervisor' initialized
-chrome-1      | 2024-02-15 16:39:01,437 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-chrome-1      | 2024-02-15 16:39:01,440 INFO supervisord started with pid 8
-edge-1        | 2024-02-15 16:39:01,489 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
-edge-1        | 2024-02-15 16:39:01,504 INFO RPC interface 'supervisor' initialized
-edge-1        | 2024-02-15 16:39:01,504 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-edge-1        | 2024-02-15 16:39:01,507 INFO supervisord started with pid 8
-firefox-1     | 2024-02-15 16:39:02,237 INFO spawned: 'xvfb' with pid 9
-firefox-1     | 2024-02-15 16:39:02,242 INFO spawned: 'vnc' with pid 10
-firefox-1     | 2024-02-15 16:39:02,248 INFO spawned: 'novnc' with pid 11
-firefox-1     | 2024-02-15 16:39:02,256 INFO spawned: 'selenium-node' with pid 12
-firefox-1     | 2024-02-15 16:39:02,265 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
-chrome-1      | 2024-02-15 16:39:02,457 INFO spawned: 'xvfb' with pid 9
-chrome-1      | 2024-02-15 16:39:02,465 INFO spawned: 'vnc' with pid 10
-chrome-1      | 2024-02-15 16:39:02,472 INFO spawned: 'novnc' with pid 12
-chrome-1      | 2024-02-15 16:39:02,505 INFO spawned: 'selenium-node' with pid 19
-edge-1        | 2024-02-15 16:39:02,533 INFO spawned: 'xvfb' with pid 9
-edge-1        | 2024-02-15 16:39:02,553 INFO spawned: 'vnc' with pid 10
-chrome-1      | 2024-02-15 16:39:02,562 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
-edge-1        | 2024-02-15 16:39:02,569 INFO spawned: 'novnc' with pid 12
-edge-1        | 2024-02-15 16:39:02,587 INFO spawned: 'selenium-node' with pid 13
-edge-1        | 2024-02-15 16:39:02,600 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
-selenium-hub  | 16:39:02.891 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
-selenium-hub  | 16:39:02.947 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+selenium-hub  | 2024-02-15 21:37:09,823 INFO success: selenium-grid-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome-1      | 2024-02-15 21:37:10,362 INFO spawned: 'xvfb' with pid 8
+firefox-1     | 2024-02-15 21:37:10,364 INFO spawned: 'xvfb' with pid 9
+chrome-1      | 2024-02-15 21:37:10,374 INFO spawned: 'vnc' with pid 9
+chrome-1      | 2024-02-15 21:37:10,378 INFO spawned: 'novnc' with pid 10
+edge-1        | 2024-02-15 21:37:10,379 INFO spawned: 'xvfb' with pid 9
+firefox-1     | 2024-02-15 21:37:10,387 INFO spawned: 'vnc' with pid 10
+edge-1        | 2024-02-15 21:37:10,390 INFO spawned: 'vnc' with pid 11
+firefox-1     | 2024-02-15 21:37:10,393 INFO spawned: 'novnc' with pid 12
+firefox-1     | 2024-02-15 21:37:10,395 INFO spawned: 'selenium-node' with pid 14
+chrome-1      | 2024-02-15 21:37:10,396 INFO spawned: 'selenium-node' with pid 15
+edge-1        | 2024-02-15 21:37:10,396 INFO spawned: 'novnc' with pid 12
+chrome-1      | 2024-02-15 21:37:10,398 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+edge-1        | 2024-02-15 21:37:10,411 INFO spawned: 'selenium-node' with pid 16
+edge-1        | 2024-02-15 21:37:10,412 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+firefox-1     | 2024-02-15 21:37:10,412 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+selenium-hub  | 21:37:10.802 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+selenium-hub  | 21:37:10.818 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+selenium-hub  | 21:37:11.076 INFO [BoundZmqEventBus.<init>] - XPUB binding to [binding to tcp://*:4442, advertising as tcp://172.19.0.2:4442], XSUB binding to [binding to tcp://*:4443, advertising as tcp://172.19.0.2:4443]
+firefox-1     | Appending Selenium options: --session-timeout 300
+edge-1        | Appending Selenium options: --session-timeout 300
+edge-1        | Generating Selenium Config
+firefox-1     | Generating Selenium Config
 chrome-1      | Appending Selenium options: --session-timeout 300
 chrome-1      | Generating Selenium Config
-chrome-1      | Configuring server...
-chrome-1      | Setting up SE_NODE_HOST...
-chrome-1      | Setting up SE_NODE_PORT...
-chrome-1      | Setting up SE_NODE_GRID_URL...
-firefox-1     | Appending Selenium options: --session-timeout 300
-firefox-1     | Generating Selenium Config
-firefox-1     | 2024-02-15 16:39:03,311 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-firefox-1     | 2024-02-15 16:39:03,311 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-firefox-1     | 2024-02-15 16:39:03,311 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 firefox-1     | Configuring server...
 firefox-1     | Setting up SE_NODE_HOST...
 firefox-1     | Setting up SE_NODE_PORT...
 firefox-1     | Setting up SE_NODE_GRID_URL...
-edge-1        | Appending Selenium options: --session-timeout 300
-edge-1        | Generating Selenium Config
-chrome-1      | Tracing is disabled
-chrome-1      | Selenium Grid Node configuration: 
+edge-1        | Configuring server...
+edge-1        | Setting up SE_NODE_HOST...
+edge-1        | Setting up SE_NODE_PORT...
+edge-1        | Setting up SE_NODE_GRID_URL...
+chrome-1      | Configuring server...
+chrome-1      | Setting up SE_NODE_HOST...
+chrome-1      | Setting up SE_NODE_PORT...
+chrome-1      | Setting up SE_NODE_GRID_URL...
 firefox-1     | Tracing is disabled
 firefox-1     | Selenium Grid Node configuration: 
 firefox-1     | [events]
 firefox-1     | publish = "tcp://selenium-hub:4442"
 firefox-1     | subscribe = "tcp://selenium-hub:4443"
 firefox-1     | 
-chrome-1      | 2024-02-15 16:39:03,453 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 firefox-1     | [node]
 firefox-1     | session-timeout = "300"
 firefox-1     | override-max-sessions = false
@@ -105,6 +111,8 @@ firefox-1     | stereotype = '{"browserName": "firefox", "browserVersion": "122.
 firefox-1     | max-sessions = 1
 firefox-1     | 
 firefox-1     | Starting Selenium Grid Node...
+chrome-1      | Tracing is disabled
+chrome-1      | Selenium Grid Node configuration: 
 chrome-1      | [events]
 chrome-1      | publish = "tcp://selenium-hub:4442"
 chrome-1      | subscribe = "tcp://selenium-hub:4443"
@@ -121,14 +129,8 @@ chrome-1      | display-name = "chrome"
 chrome-1      | stereotype = '{"browserName": "chrome", "browserVersion": "120.0", "platformName": "Linux", "goog:chromeOptions": {"binary": "/usr/bin/google-chrome"}}'
 chrome-1      | max-sessions = 1
 chrome-1      | 
-chrome-1      | 2024-02-15 16:39:03,464 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-chrome-1      | Starting Selenium Grid Node...
-chrome-1      | 2024-02-15 16:39:03,468 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-edge-1        | Configuring server...
-edge-1        | Setting up SE_NODE_HOST...
-edge-1        | Setting up SE_NODE_PORT...
-edge-1        | Setting up SE_NODE_GRID_URL...
 edge-1        | Tracing is disabled
+chrome-1      | Starting Selenium Grid Node...
 edge-1        | Selenium Grid Node configuration: 
 edge-1        | [events]
 edge-1        | publish = "tcp://selenium-hub:4442"
@@ -147,86 +149,124 @@ edge-1        | stereotype = '{"browserName": "MicrosoftEdge", "browserVersion":
 edge-1        | max-sessions = 1
 edge-1        | 
 edge-1        | Starting Selenium Grid Node...
-edge-1        | 2024-02-15 16:39:03,561 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-edge-1        | 2024-02-15 16:39:03,562 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-edge-1        | 2024-02-15 16:39:03,562 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-selenium-hub  | 16:39:03.964 INFO [BoundZmqEventBus.<init>] - XPUB binding to [binding to tcp://*:4442, advertising as tcp://172.27.0.2:4442], XSUB binding to [binding to tcp://*:4443, advertising as tcp://172.27.0.2:4443]
-selenium-hub  | 16:39:04.511 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://172.27.0.2:4442 and tcp://172.27.0.2:4443
-selenium-hub  | 16:39:04.655 INFO [UnboundZmqEventBus.<init>] - Sockets created
-selenium-hub  | 16:39:05.673 INFO [UnboundZmqEventBus.<init>] - Event bus ready
-edge-1        | 16:39:05.808 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
-edge-1        | 16:39:05.842 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
-chrome-1      | 16:39:05.946 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
-firefox-1     | 16:39:05.950 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
-firefox-1     | 16:39:05.990 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
-chrome-1      | 16:39:05.994 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
-edge-1        | 16:39:06.253 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
-chrome-1      | 16:39:06.381 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
-firefox-1     | 16:39:06.426 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
-edge-1        | 16:39:06.535 INFO [UnboundZmqEventBus.<init>] - Sockets created
-chrome-1      | 16:39:06.594 INFO [UnboundZmqEventBus.<init>] - Sockets created
-firefox-1     | 16:39:06.663 INFO [UnboundZmqEventBus.<init>] - Sockets created
-edge-1        | 16:39:07.551 INFO [UnboundZmqEventBus.<init>] - Event bus ready
-selenium-hub  | 16:39:07.562 INFO [Hub.execute] - Started Selenium Hub 4.17.0 (revision e52b1be057*): http://172.27.0.2:4444
-chrome-1      | 16:39:07.608 INFO [UnboundZmqEventBus.<init>] - Event bus ready
-firefox-1     | 16:39:07.683 INFO [UnboundZmqEventBus.<init>] - Event bus ready
-edge-1        | 16:39:08.235 INFO [NodeServer.createHandlers] - Reporting self as: http://172.27.0.5:5555
-chrome-1      | 16:39:08.256 INFO [NodeServer.createHandlers] - Reporting self as: http://172.27.0.4:5555
-chrome-1      | 16:39:08.432 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
-edge-1        | 16:39:08.662 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
-firefox-1     | 16:39:08.739 INFO [NodeServer.createHandlers] - Reporting self as: http://172.27.0.3:5555
-chrome-1      | 16:39:08.860 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "120.0","goog:chromeOptions": {"binary": "\u002fusr\u002fbin\u002fgoogle-chrome"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
-firefox-1     | 16:39:08.889 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
-chrome-1      | 16:39:09.034 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-edge-1        | 16:39:09.062 INFO [NodeOptions.report] - Adding MicrosoftEdge for {"browserName": "MicrosoftEdge","browserVersion": "120.0","ms:edgeOptions": {"binary": "\u002fusr\u002fbin\u002fmicrosoft-edge"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
-edge-1        | 16:39:09.231 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-firefox-1     | 16:39:09.277 INFO [NodeOptions.report] - Adding firefox for {"browserName": "firefox","browserVersion": "122.0","moz:firefoxOptions": {"binary": "\u002fusr\u002fbin\u002ffirefox"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
-firefox-1     | 16:39:09.448 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-edge-1        | 16:39:10.107 INFO [NodeServer$1.start] - Starting registration process for Node http://172.27.0.5:5555
-edge-1        | 16:39:10.127 INFO [NodeServer.execute] - Started Selenium node 4.17.0 (revision e52b1be057*): http://172.27.0.5:5555
-chrome-1      | 16:39:10.236 INFO [NodeServer$1.start] - Starting registration process for Node http://172.27.0.4:5555
-chrome-1      | 16:39:10.247 INFO [NodeServer.execute] - Started Selenium node 4.17.0 (revision e52b1be057*): http://172.27.0.4:5555
-firefox-1     | 16:39:10.294 INFO [NodeServer$1.start] - Starting registration process for Node http://172.27.0.3:5555
-edge-1        | 16:39:10.248 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
-firefox-1     | 16:39:10.332 INFO [NodeServer.execute] - Started Selenium node 4.17.0 (revision e52b1be057*): http://172.27.0.3:5555
-chrome-1      | 16:39:10.327 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
-firefox-1     | 16:39:10.428 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
-selenium-hub  | 16:39:10.603 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-selenium-hub  | 16:39:11.454 INFO [GridModel.setAvailability] - Switching Node 63bfd157-df4b-4569-80a1-093bcc0b1bbd (uri: http://172.27.0.5:5555) from DOWN to UP
-selenium-hub  | 16:39:11.456 INFO [LocalDistributor.add] - Added node 63bfd157-df4b-4569-80a1-093bcc0b1bbd at http://172.27.0.5:5555. Health check every 120s
-edge-1        | 16:39:11.473 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
-selenium-hub  | 16:39:11.465 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-selenium-hub  | 16:39:11.974 INFO [GridModel.setAvailability] - Switching Node bb3cb3a0-d73e-45ae-8608-dde5455d2b4c (uri: http://172.27.0.4:5555) from DOWN to UP
-selenium-hub  | 16:39:11.975 INFO [LocalDistributor.add] - Added node bb3cb3a0-d73e-45ae-8608-dde5455d2b4c at http://172.27.0.4:5555. Health check every 120s
-selenium-hub  | 16:39:11.984 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-chrome-1      | 16:39:11.990 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
-selenium-hub  | 16:39:12.567 INFO [GridModel.setAvailability] - Switching Node 538f9886-27d1-4e6b-9969-8aa52980bfc9 (uri: http://172.27.0.3:5555) from DOWN to UP
-selenium-hub  | 16:39:12.569 INFO [LocalDistributor.add] - Added node 538f9886-27d1-4e6b-9969-8aa52980bfc9 at http://172.27.0.3:5555. Health check every 120s
-firefox-1     | 16:39:12.586 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
-chrome-2      | 2024-02-15 16:39:14,696 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
-chrome-2      | 2024-02-15 16:39:14,709 INFO RPC interface 'supervisor' initialized
-chrome-2      | 2024-02-15 16:39:14,710 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-chrome-2      | 2024-02-15 16:39:14,712 INFO supervisord started with pid 8
-chrome-5      | 2024-02-15 16:39:15,465 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
-chrome-5      | 2024-02-15 16:39:15,475 INFO RPC interface 'supervisor' initialized
-chrome-5      | 2024-02-15 16:39:15,476 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-chrome-5      | 2024-02-15 16:39:15,480 INFO supervisord started with pid 8
-chrome-2      | 2024-02-15 16:39:15,725 INFO spawned: 'xvfb' with pid 9
-chrome-2      | 2024-02-15 16:39:15,744 INFO spawned: 'vnc' with pid 10
-chrome-2      | 2024-02-15 16:39:15,754 INFO spawned: 'novnc' with pid 11
-chrome-2      | 2024-02-15 16:39:15,784 INFO spawned: 'selenium-node' with pid 14
-chrome-2      | 2024-02-15 16:39:15,817 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
-chrome-3      | 2024-02-15 16:39:16,326 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
-chrome-3      | 2024-02-15 16:39:16,354 INFO RPC interface 'supervisor' initialized
-chrome-3      | 2024-02-15 16:39:16,355 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-chrome-3      | 2024-02-15 16:39:16,365 INFO supervisord started with pid 8
+selenium-hub  | 21:37:11.314 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://172.19.0.2:4442 and tcp://172.19.0.2:4443
+selenium-hub  | 21:37:11.409 INFO [UnboundZmqEventBus.<init>] - Sockets created
+chrome-1      | 2024-02-15 21:37:11,441 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-1      | 2024-02-15 21:37:11,442 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-1      | 2024-02-15 21:37:11,442 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefox-1     | 2024-02-15 21:37:11,439 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefox-1     | 2024-02-15 21:37:11,440 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefox-1     | 2024-02-15 21:37:11,444 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+edge-1        | 2024-02-15 21:37:11,452 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+edge-1        | 2024-02-15 21:37:11,452 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+edge-1        | 2024-02-15 21:37:11,452 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+selenium-hub  | 21:37:12.413 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+chrome-1      | 21:37:12.476 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+firefox-1     | 21:37:12.475 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+chrome-1      | 21:37:12.505 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+firefox-1     | 21:37:12.520 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+edge-1        | 21:37:12.524 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+edge-1        | 21:37:12.551 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+chrome-1      | 21:37:12.956 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+firefox-1     | 21:37:12.968 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+edge-1        | 21:37:12.992 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+chrome-1      | 21:37:13.174 INFO [UnboundZmqEventBus.<init>] - Sockets created
+firefox-1     | 21:37:13.193 INFO [UnboundZmqEventBus.<init>] - Sockets created
+edge-1        | 21:37:13.209 INFO [UnboundZmqEventBus.<init>] - Sockets created
+chrome-1      | 21:37:14.182 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+firefox-1     | 21:37:14.199 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+edge-1        | 21:37:14.216 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+selenium-hub  | 21:37:14.316 INFO [Hub.execute] - Started Selenium Hub 4.17.0 (revision e52b1be057*): http://172.19.0.2:4444
+chrome-1      | 21:37:14.527 INFO [NodeServer.createHandlers] - Reporting self as: http://172.19.0.5:5555
+firefox-1     | 21:37:14.554 INFO [NodeServer.createHandlers] - Reporting self as: http://172.19.0.3:5555
+edge-1        | 21:37:14.561 INFO [NodeServer.createHandlers] - Reporting self as: http://172.19.0.4:5555
+chrome-1      | 21:37:14.615 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+firefox-1     | 21:37:14.635 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+edge-1        | 21:37:14.644 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+edge-1        | 21:37:14.805 INFO [NodeOptions.report] - Adding MicrosoftEdge for {"browserName": "MicrosoftEdge","browserVersion": "120.0","ms:edgeOptions": {"binary": "\u002fusr\u002fbin\u002fmicrosoft-edge"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+chrome-1      | 21:37:14.802 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "120.0","goog:chromeOptions": {"binary": "\u002fusr\u002fbin\u002fgoogle-chrome"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+firefox-1     | 21:37:14.813 INFO [NodeOptions.report] - Adding firefox for {"browserName": "firefox","browserVersion": "122.0","moz:firefoxOptions": {"binary": "\u002fusr\u002fbin\u002ffirefox"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+edge-1        | 21:37:14.902 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+firefox-1     | 21:37:14.904 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-1      | 21:37:14.908 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+edge-1        | 21:37:15.475 INFO [NodeServer$1.start] - Starting registration process for Node http://172.19.0.4:5555
+edge-1        | 21:37:15.477 INFO [NodeServer.execute] - Started Selenium node 4.17.0 (revision e52b1be057*): http://172.19.0.4:5555
+chrome-1      | 21:37:15.493 INFO [NodeServer$1.start] - Starting registration process for Node http://172.19.0.5:5555
+chrome-1      | 21:37:15.497 INFO [NodeServer.execute] - Started Selenium node 4.17.0 (revision e52b1be057*): http://172.19.0.5:5555
+firefox-1     | 21:37:15.514 INFO [NodeServer$1.start] - Starting registration process for Node http://172.19.0.3:5555
+firefox-1     | 21:37:15.518 INFO [NodeServer.execute] - Started Selenium node 4.17.0 (revision e52b1be057*): http://172.19.0.3:5555
+edge-1        | 21:37:15.529 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+chrome-1      | 21:37:15.542 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+firefox-1     | 21:37:15.565 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub  | 21:37:15.653 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+selenium-hub  | 21:37:16.450 INFO [GridModel.setAvailability] - Switching Node 53962ab7-a26f-48ee-b639-1b894c2463af (uri: http://172.19.0.3:5555) from DOWN to UP
+selenium-hub  | 21:37:16.452 INFO [LocalDistributor.add] - Added node 53962ab7-a26f-48ee-b639-1b894c2463af at http://172.19.0.3:5555. Health check every 120s
+firefox-1     | 21:37:16.461 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub  | 21:37:16.486 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+selenium-hub  | 21:37:16.748 INFO [GridModel.setAvailability] - Switching Node eee54395-01aa-4e2e-9dbd-7feb0115f2e4 (uri: http://172.19.0.4:5555) from DOWN to UP
+selenium-hub  | 21:37:16.750 INFO [LocalDistributor.add] - Added node eee54395-01aa-4e2e-9dbd-7feb0115f2e4 at http://172.19.0.4:5555. Health check every 120s
+selenium-hub  | 21:37:16.754 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+edge-1        | 21:37:16.758 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub  | 21:37:16.949 INFO [GridModel.setAvailability] - Switching Node 567eb78b-afe0-4e74-8e5b-b657b5391edf (uri: http://172.19.0.5:5555) from DOWN to UP
+selenium-hub  | 21:37:16.950 INFO [LocalDistributor.add] - Added node 567eb78b-afe0-4e74-8e5b-b657b5391edf at http://172.19.0.5:5555. Health check every 120s
+chrome-1      | 21:37:16.955 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+chrome-3      | 2024-02-15 21:37:19,534 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome-3      | 2024-02-15 21:37:19,539 INFO RPC interface 'supervisor' initialized
+chrome-3      | 2024-02-15 21:37:19,539 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+chrome-3      | 2024-02-15 21:37:19,540 INFO supervisord started with pid 8
+chrome-2      | 2024-02-15 21:37:19,970 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome-2      | 2024-02-15 21:37:19,973 INFO RPC interface 'supervisor' initialized
+chrome-2      | 2024-02-15 21:37:19,974 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+chrome-2      | 2024-02-15 21:37:19,974 INFO supervisord started with pid 8
+chrome-3      | 2024-02-15 21:37:20,542 INFO spawned: 'xvfb' with pid 9
+chrome-4      | 2024-02-15 21:37:20,542 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome-3      | 2024-02-15 21:37:20,545 INFO spawned: 'vnc' with pid 10
+chrome-3      | 2024-02-15 21:37:20,550 INFO spawned: 'novnc' with pid 11
+chrome-3      | 2024-02-15 21:37:20,553 INFO spawned: 'selenium-node' with pid 15
+chrome-4      | 2024-02-15 21:37:20,553 INFO RPC interface 'supervisor' initialized
+chrome-4      | 2024-02-15 21:37:20,554 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+chrome-4      | 2024-02-15 21:37:20,555 INFO supervisord started with pid 8
+chrome-3      | 2024-02-15 21:37:20,561 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome-3      | Appending Selenium options: --session-timeout 300
+chrome-3      | Generating Selenium Config
+chrome-3      | Configuring server...
+chrome-3      | Setting up SE_NODE_HOST...
+chrome-3      | Setting up SE_NODE_PORT...
+chrome-3      | Setting up SE_NODE_GRID_URL...
+chrome-3      | Tracing is disabled
+chrome-3      | Selenium Grid Node configuration: 
+chrome-3      | [events]
+chrome-3      | publish = "tcp://selenium-hub:4442"
+chrome-3      | subscribe = "tcp://selenium-hub:4443"
+chrome-3      | 
+chrome-3      | [node]
+chrome-3      | session-timeout = "300"
+chrome-3      | override-max-sessions = false
+chrome-3      | detect-drivers = false
+chrome-3      | drain-after-session-count = 0
+chrome-3      | max-sessions = 1
+chrome-3      | 
+chrome-3      | [[node.driver-configuration]]
+chrome-3      | display-name = "chrome"
+chrome-3      | stereotype = '{"browserName": "chrome", "browserVersion": "120.0", "platformName": "Linux", "goog:chromeOptions": {"binary": "/usr/bin/google-chrome"}}'
+chrome-3      | max-sessions = 1
+chrome-3      | 
+chrome-3      | Starting Selenium Grid Node...
+chrome-2      | 2024-02-15 21:37:20,977 INFO spawned: 'xvfb' with pid 9
+chrome-2      | 2024-02-15 21:37:20,981 INFO spawned: 'vnc' with pid 10
+chrome-2      | 2024-02-15 21:37:20,988 INFO spawned: 'novnc' with pid 14
+chrome-2      | 2024-02-15 21:37:20,995 INFO spawned: 'selenium-node' with pid 18
+chrome-2      | 2024-02-15 21:37:21,002 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome-5      | 2024-02-15 21:37:21,097 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome-5      | 2024-02-15 21:37:21,102 INFO RPC interface 'supervisor' initialized
+chrome-5      | 2024-02-15 21:37:21,102 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+chrome-5      | 2024-02-15 21:37:21,103 INFO supervisord started with pid 9
 chrome-2      | Appending Selenium options: --session-timeout 300
 chrome-2      | Generating Selenium Config
 chrome-2      | Configuring server...
 chrome-2      | Setting up SE_NODE_HOST...
 chrome-2      | Setting up SE_NODE_PORT...
 chrome-2      | Setting up SE_NODE_GRID_URL...
-chrome-5      | 2024-02-15 16:39:16,493 INFO spawned: 'xvfb' with pid 9
 chrome-2      | Tracing is disabled
 chrome-2      | Selenium Grid Node configuration: 
 chrome-2      | [events]
@@ -245,104 +285,23 @@ chrome-2      | display-name = "chrome"
 chrome-2      | stereotype = '{"browserName": "chrome", "browserVersion": "120.0", "platformName": "Linux", "goog:chromeOptions": {"binary": "/usr/bin/google-chrome"}}'
 chrome-2      | max-sessions = 1
 chrome-2      | 
-chrome-5      | 2024-02-15 16:39:16,499 INFO spawned: 'vnc' with pid 10
-chrome-5      | 2024-02-15 16:39:16,515 INFO spawned: 'novnc' with pid 11
 chrome-2      | Starting Selenium Grid Node...
-chrome-5      | 2024-02-15 16:39:16,533 INFO spawned: 'selenium-node' with pid 12
-chrome-5      | 2024-02-15 16:39:16,576 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
-chrome-2      | 2024-02-15 16:39:16,810 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-chrome-2      | 2024-02-15 16:39:16,811 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-chrome-2      | 2024-02-15 16:39:16,812 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-chrome-5      | Appending Selenium options: --session-timeout 300
-chrome-5      | Generating Selenium Config
-chrome-5      | Configuring server...
-chrome-5      | Setting up SE_NODE_HOST...
-chrome-5      | Setting up SE_NODE_PORT...
-chrome-5      | Setting up SE_NODE_GRID_URL...
-chrome-3      | 2024-02-15 16:39:17,373 INFO spawned: 'xvfb' with pid 9
-chrome-5      | Tracing is disabled
-chrome-5      | Selenium Grid Node configuration: 
-chrome-3      | 2024-02-15 16:39:17,393 INFO spawned: 'vnc' with pid 10
-chrome-5      | [events]
-chrome-5      | publish = "tcp://selenium-hub:4442"
-chrome-5      | subscribe = "tcp://selenium-hub:4443"
-chrome-5      | 
-chrome-5      | [node]
-chrome-5      | session-timeout = "300"
-chrome-5      | override-max-sessions = false
-chrome-5      | detect-drivers = false
-chrome-5      | drain-after-session-count = 0
-chrome-5      | max-sessions = 1
-chrome-5      | 
-chrome-5      | [[node.driver-configuration]]
-chrome-5      | display-name = "chrome"
-chrome-5      | stereotype = '{"browserName": "chrome", "browserVersion": "120.0", "platformName": "Linux", "goog:chromeOptions": {"binary": "/usr/bin/google-chrome"}}'
-chrome-5      | max-sessions = 1
-chrome-5      | 
-chrome-5      | Starting Selenium Grid Node...
-chrome-3      | 2024-02-15 16:39:17,414 INFO spawned: 'novnc' with pid 13
-chrome-3      | 2024-02-15 16:39:17,453 INFO spawned: 'selenium-node' with pid 19
-chrome-3      | 2024-02-15 16:39:17,480 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
-chrome-5      | 2024-02-15 16:39:17,644 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-chrome-5      | 2024-02-15 16:39:17,644 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-chrome-5      | 2024-02-15 16:39:17,645 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-chrome-4      | 2024-02-15 16:39:17,998 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
-chrome-4      | 2024-02-15 16:39:18,025 INFO RPC interface 'supervisor' initialized
-chrome-4      | 2024-02-15 16:39:18,026 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-chrome-4      | 2024-02-15 16:39:18,031 INFO supervisord started with pid 8
-chrome-3      | Appending Selenium options: --session-timeout 300
-chrome-3      | Generating Selenium Config
-chrome-3      | Configuring server...
-chrome-3      | Setting up SE_NODE_HOST...
-chrome-3      | Setting up SE_NODE_PORT...
-chrome-3      | Setting up SE_NODE_GRID_URL...
-chrome-3      | Tracing is disabled
-chrome-3      | Selenium Grid Node configuration: 
-chrome-3      | 2024-02-15 16:39:18,410 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-chrome-3      | 2024-02-15 16:39:18,410 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-chrome-3      | 2024-02-15 16:39:18,411 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-chrome-3      | [events]
-chrome-3      | publish = "tcp://selenium-hub:4442"
-chrome-3      | subscribe = "tcp://selenium-hub:4443"
-chrome-3      | 
-chrome-3      | [node]
-chrome-3      | session-timeout = "300"
-chrome-3      | override-max-sessions = false
-chrome-3      | detect-drivers = false
-chrome-3      | drain-after-session-count = 0
-chrome-3      | max-sessions = 1
-chrome-3      | 
-chrome-3      | [[node.driver-configuration]]
-chrome-3      | display-name = "chrome"
-chrome-3      | stereotype = '{"browserName": "chrome", "browserVersion": "120.0", "platformName": "Linux", "goog:chromeOptions": {"binary": "/usr/bin/google-chrome"}}'
-chrome-3      | max-sessions = 1
-chrome-3      | 
-chrome-3      | Starting Selenium Grid Node...
-selenium-hub  | 16:39:18.442 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
-selenium-hub  |  [Capabilities {browserName: chrome}]
-selenium-hub  | 16:39:18.442 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
-selenium-hub  |  [Capabilities {browserName: chrome}]
-selenium-hub  | 16:39:18.447 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
-selenium-hub  |  [Capabilities {browserName: chrome}]
-selenium-hub  | 16:39:18.480 INFO [LocalDistributor.newSession] - Unable to find a free slot for request 13adf5b5-418c-49f4-9938-313db8563730. 
-selenium-hub  |  Capabilities {browserName: chrome} 
-selenium-hub  | 16:39:18.501 INFO [LocalDistributor.newSession] - Unable to find a free slot for request 697c6457-09fe-40f6-9330-632932dcc14b. 
-selenium-hub  |  Capabilities {browserName: chrome} 
-selenium-hub  | 16:39:18.495 WARN [SeleniumSpanExporter$1.lambda$export$3] - {"traceId": "833ddeea1f89645466f6d18464ac4534","eventTime": 1708015158441524399,"eventName": "Session request received by the Distributor","attributes": {"logger": "org.openqa.selenium.grid.distributor.local.LocalDistributor","request.payload": "[Capabilities {browserName: chrome}]"}}
-selenium-hub  | 
-selenium-hub  | 16:39:18.505 WARN [SeleniumSpanExporter$1.lambda$export$1] - Will retry session 13adf5b5-418c-49f4-9938-313db8563730
-selenium-hub  | 16:39:18.539 WARN [SeleniumSpanExporter$1.lambda$export$3] - {"traceId": "731886f0b92d46f210f2b31050b41c88","eventTime": 1708015158446414798,"eventName": "Session request received by the Distributor","attributes": {"logger": "org.openqa.selenium.grid.distributor.local.LocalDistributor","request.payload": "[Capabilities {browserName: chrome}]"}}
-selenium-hub  | 
-selenium-hub  | 16:39:18.577 WARN [SeleniumSpanExporter$1.lambda$export$1] - Will retry session 697c6457-09fe-40f6-9330-632932dcc14b
-selenium-hub  | 16:39:18.605 WARN [SeleniumSpanExporter$1.lambda$export$3] - {"traceId": "731886f0b92d46f210f2b31050b41c88","eventTime": 1708015158503242296,"eventName": "exception","attributes": {"exception.message": "Will retry session 697c6457-09fe-40f6-9330-632932dcc14b","logger": "org.openqa.selenium.grid.distributor.local.LocalDistributor","request.payload": "[Capabilities {browserName: chrome}]"}}
-selenium-hub  | 
-selenium-hub  | 16:39:18.542 WARN [SeleniumSpanExporter$1.lambda$export$3] - {"traceId": "833ddeea1f89645466f6d18464ac4534","eventTime": 1708015158484303698,"eventName": "exception","attributes": {"exception.message": "Will retry session 13adf5b5-418c-49f4-9938-313db8563730","logger": "org.openqa.selenium.grid.distributor.local.LocalDistributor","request.payload": "[Capabilities {browserName: chrome}]"}}
-selenium-hub  | 
-chrome-4      | 2024-02-15 16:39:19,036 INFO spawned: 'xvfb' with pid 9
-chrome-4      | 2024-02-15 16:39:19,043 INFO spawned: 'vnc' with pid 10
-chrome-4      | 2024-02-15 16:39:19,069 INFO spawned: 'novnc' with pid 19
-chrome-4      | 2024-02-15 16:39:19,076 INFO spawned: 'selenium-node' with pid 21
-chrome-4      | 2024-02-15 16:39:19,099 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome-4      | 2024-02-15 21:37:21,566 INFO spawned: 'xvfb' with pid 9
+chrome-4      | 2024-02-15 21:37:21,570 INFO spawned: 'vnc' with pid 10
+chrome-3      | 2024-02-15 21:37:21,579 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-3      | 2024-02-15 21:37:21,579 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-3      | 2024-02-15 21:37:21,579 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-4      | 2024-02-15 21:37:21,585 INFO spawned: 'novnc' with pid 11
+chrome-4      | 2024-02-15 21:37:21,616 INFO spawned: 'selenium-node' with pid 18
+chrome-4      | 2024-02-15 21:37:21,636 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome-2      | 2024-02-15 21:37:22,017 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-2      | 2024-02-15 21:37:22,017 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-2      | 2024-02-15 21:37:22,018 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-5      | 2024-02-15 21:37:22,108 INFO spawned: 'xvfb' with pid 10
+chrome-5      | 2024-02-15 21:37:22,114 INFO spawned: 'vnc' with pid 11
+chrome-5      | 2024-02-15 21:37:22,124 INFO spawned: 'novnc' with pid 12
+chrome-5      | 2024-02-15 21:37:22,141 INFO spawned: 'selenium-node' with pid 16
+chrome-5      | 2024-02-15 21:37:22,146 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
 chrome-4      | Appending Selenium options: --session-timeout 300
 chrome-4      | Generating Selenium Config
 chrome-4      | Configuring server...
@@ -368,541 +327,224 @@ chrome-4      | stereotype = '{"browserName": "chrome", "browserVersion": "120.0
 chrome-4      | max-sessions = 1
 chrome-4      | 
 chrome-4      | Starting Selenium Grid Node...
-chrome-2      | 16:39:19.655 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
-chrome-2      | 16:39:19.691 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
-chrome-4      | 2024-02-15 16:39:20,045 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-chrome-4      | 2024-02-15 16:39:20,045 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-chrome-4      | 2024-02-15 16:39:20,119 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-chrome-5      | 16:39:20.225 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
-chrome-5      | 16:39:20.267 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
-chrome-2      | 16:39:20.366 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
-chrome-2      | 16:39:20.683 INFO [UnboundZmqEventBus.<init>] - Sockets created
-chrome-5      | 16:39:20.805 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
-chrome-3      | 16:39:21.017 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
-chrome-3      | 16:39:21.037 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
-chrome-5      | 16:39:21.061 INFO [UnboundZmqEventBus.<init>] - Sockets created
-chrome-3      | 16:39:21.454 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
-chrome-4      | 16:39:21.562 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
-chrome-4      | 16:39:21.581 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
-chrome-3      | 16:39:21.650 INFO [UnboundZmqEventBus.<init>] - Sockets created
-chrome-2      | 16:39:21.689 INFO [UnboundZmqEventBus.<init>] - Event bus ready
-chrome-4      | 16:39:22.001 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
-chrome-5      | 16:39:22.087 INFO [UnboundZmqEventBus.<init>] - Event bus ready
-chrome-4      | 16:39:22.257 INFO [UnboundZmqEventBus.<init>] - Sockets created
-chrome-2      | 16:39:22.324 INFO [NodeServer.createHandlers] - Reporting self as: http://172.27.0.6:5555
-chrome-2      | 16:39:22.394 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
-chrome-2      | 16:39:22.573 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "120.0","goog:chromeOptions": {"binary": "\u002fusr\u002fbin\u002fgoogle-chrome"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
-chrome-3      | 16:39:22.660 INFO [UnboundZmqEventBus.<init>] - Event bus ready
-chrome-2      | 16:39:22.721 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-chrome-5      | 16:39:22.727 INFO [NodeServer.createHandlers] - Reporting self as: http://172.27.0.7:5555
-chrome-5      | 16:39:23.040 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
-chrome-4      | 16:39:23.284 INFO [UnboundZmqEventBus.<init>] - Event bus ready
-chrome-5      | 16:39:23.478 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "120.0","goog:chromeOptions": {"binary": "\u002fusr\u002fbin\u002fgoogle-chrome"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
-chrome-1      | 16:39:23.636 INFO [LocalNode.newSession] - Session created by the Node. Id: 9ee9f21e54ec20b9e0bbd7bd0e4b83f0, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39861}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.27.0.4:4444/sessio..., se:cdpVersion: 120.0.6099.224, se:vnc: ws://172.27.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.27.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-chrome-5      | 16:39:23.680 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-selenium-hub  | 16:39:23.765 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: 9ee9f21e54ec20b9e0bbd7bd0e4b83f0 
-selenium-hub  |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39861}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.27.0.4:4444/sessio..., se:cdpVersion: 120.0.6099.224, se:vnc: ws://172.27.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.27.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-chrome-3      | 16:39:23.791 INFO [NodeServer.createHandlers] - Reporting self as: http://172.27.0.8:5555
-chrome-3      | 16:39:23.950 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
-chrome-2      | 16:39:24.087 INFO [NodeServer$1.start] - Starting registration process for Node http://172.27.0.6:5555
-chrome-2      | 16:39:24.108 INFO [NodeServer.execute] - Started Selenium node 4.17.0 (revision e52b1be057*): http://172.27.0.6:5555
-chrome-4      | 16:39:24.131 INFO [NodeServer.createHandlers] - Reporting self as: http://172.27.0.9:5555
-chrome-3      | 16:39:24.206 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "120.0","goog:chromeOptions": {"binary": "\u002fusr\u002fbin\u002fgoogle-chrome"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
-selenium-hub  | 16:39:24.265 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-chrome-2      | 16:39:24.219 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
-chrome-4      | 16:39:24.281 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
-chrome-3      | 16:39:24.354 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-chrome-4      | 16:39:24.525 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "120.0","goog:chromeOptions": {"binary": "\u002fusr\u002fbin\u002fgoogle-chrome"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
-chrome-5      | 16:39:24.675 INFO [NodeServer$1.start] - Starting registration process for Node http://172.27.0.7:5555
-chrome-5      | 16:39:24.698 INFO [NodeServer.execute] - Started Selenium node 4.17.0 (revision e52b1be057*): http://172.27.0.7:5555
-chrome-4      | 16:39:24.700 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-chrome-5      | 16:39:24.854 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
-selenium-hub  | 16:39:25.018 INFO [GridModel.setAvailability] - Switching Node 982ced49-a9a9-4358-88be-45b2eeef454d (uri: http://172.27.0.6:5555) from DOWN to UP
-selenium-hub  | 16:39:25.026 INFO [LocalDistributor.add] - Added node 982ced49-a9a9-4358-88be-45b2eeef454d at http://172.27.0.6:5555. Health check every 120s
-selenium-hub  | 16:39:25.036 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-selenium-hub  | 16:39:25.036 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+chrome-3      | 21:37:22.367 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+chrome-3      | 21:37:22.446 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+chrome-5      | Appending Selenium options: --session-timeout 300
+chrome-5      | Generating Selenium Config
+chrome-4      | 2024-02-15 21:37:22,687 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-4      | 2024-02-15 21:37:22,690 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-4      | 2024-02-15 21:37:22,691 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-5      | Configuring server...
+chrome-5      | Setting up SE_NODE_HOST...
+chrome-5      | Setting up SE_NODE_PORT...
+chrome-5      | Setting up SE_NODE_GRID_URL...
+chrome-5      | Tracing is disabled
+chrome-5      | Selenium Grid Node configuration: 
+chrome-5      | [events]
+chrome-5      | publish = "tcp://selenium-hub:4442"
+chrome-5      | subscribe = "tcp://selenium-hub:4443"
+chrome-5      | 
+chrome-5      | [node]
+chrome-5      | session-timeout = "300"
+chrome-5      | override-max-sessions = false
+chrome-5      | detect-drivers = false
+chrome-5      | drain-after-session-count = 0
+chrome-5      | max-sessions = 1
+chrome-5      | 
+chrome-5      | [[node.driver-configuration]]
+chrome-5      | display-name = "chrome"
+chrome-5      | stereotype = '{"browserName": "chrome", "browserVersion": "120.0", "platformName": "Linux", "goog:chromeOptions": {"binary": "/usr/bin/google-chrome"}}'
+chrome-5      | max-sessions = 1
+chrome-5      | 
+chrome-5      | Starting Selenium Grid Node...
+chrome-5      | 2024-02-15 21:37:23,105 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-5      | 2024-02-15 21:37:23,110 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-5      | 2024-02-15 21:37:23,117 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-3      | 21:37:23.280 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+chrome-3      | 21:37:23.601 INFO [UnboundZmqEventBus.<init>] - Sockets created
+chrome-2      | 21:37:23.688 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+chrome-2      | 21:37:23.739 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+chrome-2      | 21:37:24.216 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+chrome-2      | 21:37:24.432 INFO [UnboundZmqEventBus.<init>] - Sockets created
+chrome-4      | 21:37:24.483 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+chrome-4      | 21:37:24.506 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+chrome-3      | 21:37:24.615 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+chrome-5      | 21:37:24.738 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+chrome-5      | 21:37:24.760 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+chrome-4      | 21:37:24.834 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+selenium-hub  | 21:37:24.863 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
 selenium-hub  |  [Capabilities {browserName: chrome}]
-chrome-2      | 16:39:25.048 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
-chrome-3      | 16:39:25.235 INFO [NodeServer$1.start] - Starting registration process for Node http://172.27.0.8:5555
-chrome-3      | 16:39:25.241 INFO [NodeServer.execute] - Started Selenium node 4.17.0 (revision e52b1be057*): http://172.27.0.8:5555
-chrome-3      | 16:39:25.282 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
-chrome-4      | 16:39:25.438 INFO [NodeServer$1.start] - Starting registration process for Node http://172.27.0.9:5555
-chrome-4      | 16:39:25.448 INFO [NodeServer.execute] - Started Selenium node 4.17.0 (revision e52b1be057*): http://172.27.0.9:5555
-chrome-4      | 16:39:25.525 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
-selenium-hub  | 16:39:25.603 INFO [GridModel.setAvailability] - Switching Node f567d2f2-6e35-4417-af93-58fd308d6831 (uri: http://172.27.0.7:5555) from DOWN to UP
-selenium-hub  | 16:39:25.604 INFO [LocalDistributor.add] - Added node f567d2f2-6e35-4417-af93-58fd308d6831 at http://172.27.0.7:5555. Health check every 120s
-chrome-5      | 16:39:25.612 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
-selenium-hub  | 16:39:25.612 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-selenium-hub  | 16:39:25.617 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-hub  | 21:37:24.863 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
 selenium-hub  |  [Capabilities {browserName: chrome}]
-selenium-hub  | 16:39:26.015 INFO [GridModel.setAvailability] - Switching Node 3a4fa488-e689-4f97-9135-f56c389f1c74 (uri: http://172.27.0.8:5555) from DOWN to UP
-selenium-hub  | 16:39:26.016 INFO [LocalDistributor.add] - Added node 3a4fa488-e689-4f97-9135-f56c389f1c74 at http://172.27.0.8:5555. Health check every 120s
-selenium-hub  | 16:39:26.022 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-chrome-3      | 16:39:26.025 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
-chrome-1      | 16:39:26.093 INFO [SessionSlot.stop] - Stopping session 9ee9f21e54ec20b9e0bbd7bd0e4b83f0
-selenium-hub  | 16:39:26.109 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: 9ee9f21e54ec20b9e0bbd7bd0e4b83f0
-selenium-hub  | 16:39:26.127 INFO [GridModel.release] - Releasing slot for session id 9ee9f21e54ec20b9e0bbd7bd0e4b83f0
-selenium-hub  | 16:39:26.309 INFO [GridModel.setAvailability] - Switching Node 61e2fbe5-08a7-4e4a-b6fe-597a42a06019 (uri: http://172.27.0.9:5555) from DOWN to UP
-selenium-hub  | 16:39:26.311 INFO [LocalDistributor.add] - Added node 61e2fbe5-08a7-4e4a-b6fe-597a42a06019 at http://172.27.0.9:5555. Health check every 120s
-chrome-4      | 16:39:26.325 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
-chrome-5      | 16:39:28.607 INFO [LocalNode.newSession] - Session created by the Node. Id: 8093214088ad5f35868095bfb8b52bc7, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43869}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.27.0.7:4444/sessio..., se:cdpVersion: 120.0.6099.224, se:vnc: ws://172.27.0.7:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.27.0.7:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-selenium-hub  | 16:39:28.649 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: 8093214088ad5f35868095bfb8b52bc7 
-selenium-hub  |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43869}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.27.0.7:4444/sessio..., se:cdpVersion: 120.0.6099.224, se:vnc: ws://172.27.0.7:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.27.0.7:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-chrome-2      | 16:39:28.650 INFO [LocalNode.newSession] - Session created by the Node. Id: 5c84d0ce9e0b147b9017dc1331fe2f95, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35385}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.27.0.6:4444/sessio..., se:cdpVersion: 120.0.6099.224, se:vnc: ws://172.27.0.6:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.27.0.6:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-selenium-hub  | 16:39:28.731 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: 5c84d0ce9e0b147b9017dc1331fe2f95 
-selenium-hub  |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35385}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.27.0.6:4444/sessio..., se:cdpVersion: 120.0.6099.224, se:vnc: ws://172.27.0.6:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.27.0.6:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-selenium-hub  | 16:39:31.570 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: 8093214088ad5f35868095bfb8b52bc7
-selenium-hub  | 16:39:31.570 INFO [GridModel.release] - Releasing slot for session id 8093214088ad5f35868095bfb8b52bc7
-chrome-5      | 16:39:31.558 INFO [SessionSlot.stop] - Stopping session 8093214088ad5f35868095bfb8b52bc7
-chrome-2      | 16:39:32.406 INFO [SessionSlot.stop] - Stopping session 5c84d0ce9e0b147b9017dc1331fe2f95
-selenium-hub  | 16:39:32.411 INFO [GridModel.release] - Releasing slot for session id 5c84d0ce9e0b147b9017dc1331fe2f95
-selenium-hub  | 16:39:32.411 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: 5c84d0ce9e0b147b9017dc1331fe2f95
-chrome-3      | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
-firefox-1     | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
-chrome-2      | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
-chrome-5      | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+selenium-hub  | 21:37:24.870 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-hub  |  [Capabilities {browserName: chrome}]
+selenium-hub  | 21:37:24.886 INFO [LocalDistributor.newSession] - Unable to find a free slot for request 25180928-975c-4538-8b63-ea6dba21fb4f. 
+selenium-hub  |  Capabilities {browserName: chrome} 
+selenium-hub  | 21:37:24.891 INFO [LocalDistributor.newSession] - Unable to find a free slot for request c688112a-d3f2-41a6-a85e-b00fb49d88c9. 
+selenium-hub  |  Capabilities {browserName: chrome} 
+selenium-hub  | 21:37:24.905 WARN [SeleniumSpanExporter$1.lambda$export$3] - {"traceId": "e9592939b68b98c8fe3302bb8015a572","eventTime": 1708033044868825162,"eventName": "Session request received by the Distributor","attributes": {"logger": "org.openqa.selenium.grid.distributor.local.LocalDistributor","request.payload": "[Capabilities {browserName: chrome}]"}}
+selenium-hub  | 
+selenium-hub  | 21:37:24.906 WARN [SeleniumSpanExporter$1.lambda$export$1] - Will retry session c688112a-d3f2-41a6-a85e-b00fb49d88c9
+selenium-hub  | 21:37:24.899 WARN [SeleniumSpanExporter$1.lambda$export$3] - {"traceId": "81ad8153989511d6b2b9012665c4017c","eventTime": 1708033044862768257,"eventName": "Session request received by the Distributor","attributes": {"logger": "org.openqa.selenium.grid.distributor.local.LocalDistributor","request.payload": "[Capabilities {browserName: chrome}]"}}
+selenium-hub  | 
+selenium-hub  | 21:37:24.909 WARN [SeleniumSpanExporter$1.lambda$export$3] - {"traceId": "e9592939b68b98c8fe3302bb8015a572","eventTime": 1708033044897317603,"eventName": "exception","attributes": {"exception.message": "Will retry session c688112a-d3f2-41a6-a85e-b00fb49d88c9","logger": "org.openqa.selenium.grid.distributor.local.LocalDistributor","request.payload": "[Capabilities {browserName: chrome}]"}}
+selenium-hub  | 
+selenium-hub  | 21:37:24.910 WARN [SeleniumSpanExporter$1.lambda$export$1] - Will retry session 25180928-975c-4538-8b63-ea6dba21fb4f
+selenium-hub  | 21:37:24.916 WARN [SeleniumSpanExporter$1.lambda$export$3] - {"traceId": "81ad8153989511d6b2b9012665c4017c","eventTime": 1708033044890207422,"eventName": "exception","attributes": {"exception.message": "Will retry session 25180928-975c-4538-8b63-ea6dba21fb4f","logger": "org.openqa.selenium.grid.distributor.local.LocalDistributor","request.payload": "[Capabilities {browserName: chrome}]"}}
+selenium-hub  | 
+chrome-3      | 21:37:25.020 INFO [NodeServer.createHandlers] - Reporting self as: http://172.19.0.6:5555
+chrome-3      | 21:37:25.090 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+chrome-4      | 21:37:25.104 INFO [UnboundZmqEventBus.<init>] - Sockets created
+chrome-5      | 21:37:25.159 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+chrome-3      | 21:37:25.252 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "120.0","goog:chromeOptions": {"binary": "\u002fusr\u002fbin\u002fgoogle-chrome"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+chrome-3      | 21:37:25.323 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-5      | 21:37:25.338 INFO [UnboundZmqEventBus.<init>] - Sockets created
+chrome-2      | 21:37:25.443 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+chrome-2      | 21:37:26.019 INFO [NodeServer.createHandlers] - Reporting self as: http://172.19.0.7:5555
+chrome-3      | 21:37:26.068 INFO [NodeServer$1.start] - Starting registration process for Node http://172.19.0.6:5555
+chrome-3      | 21:37:26.078 INFO [NodeServer.execute] - Started Selenium node 4.17.0 (revision e52b1be057*): http://172.19.0.6:5555
+chrome-4      | 21:37:26.120 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+chrome-2      | 21:37:26.130 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+chrome-3      | 21:37:26.129 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub  | 21:37:26.168 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-5      | 21:37:26.356 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+chrome-2      | 21:37:26.392 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "120.0","goog:chromeOptions": {"binary": "\u002fusr\u002fbin\u002fgoogle-chrome"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+chrome-2      | 21:37:26.515 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-4      | 21:37:26.587 INFO [NodeServer.createHandlers] - Reporting self as: http://172.19.0.8:5555
+chrome-4      | 21:37:26.701 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+selenium-hub  | 21:37:26.830 INFO [GridModel.setAvailability] - Switching Node cbceea70-8f87-498c-abb3-ba2162f9213b (uri: http://172.19.0.6:5555) from DOWN to UP
+selenium-hub  | 21:37:26.847 INFO [LocalDistributor.add] - Added node cbceea70-8f87-498c-abb3-ba2162f9213b at http://172.19.0.6:5555. Health check every 120s
+selenium-hub  | 21:37:26.871 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-hub  |  [Capabilities {browserName: chrome}]
+selenium-hub  | 21:37:26.883 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-hub  |  [Capabilities {browserName: chrome}]
+selenium-hub  | 21:37:26.890 INFO [LocalDistributor.newSession] - Unable to find a free slot for request c688112a-d3f2-41a6-a85e-b00fb49d88c9. 
+selenium-hub  |  Capabilities {browserName: chrome} 
+chrome-3      | 21:37:26.894 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub  | 21:37:26.896 WARN [SeleniumSpanExporter$1.lambda$export$3] - {"traceId": "e9592939b68b98c8fe3302bb8015a572","eventTime": 1708033046882919249,"eventName": "Session request received by the Distributor","attributes": {"logger": "org.openqa.selenium.grid.distributor.local.LocalDistributor","request.payload": "[Capabilities {browserName: chrome}]"}}
+selenium-hub  | 
+selenium-hub  | 21:37:26.902 WARN [SeleniumSpanExporter$1.lambda$export$1] - Will retry session c688112a-d3f2-41a6-a85e-b00fb49d88c9
+selenium-hub  | 21:37:26.904 WARN [SeleniumSpanExporter$1.lambda$export$3] - {"traceId": "e9592939b68b98c8fe3302bb8015a572","eventTime": 1708033046893957319,"eventName": "exception","attributes": {"exception.message": "Will retry session c688112a-d3f2-41a6-a85e-b00fb49d88c9","logger": "org.openqa.selenium.grid.distributor.local.LocalDistributor","request.payload": "[Capabilities {browserName: chrome}]"}}
+selenium-hub  | 
+chrome-4      | 21:37:27.038 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "120.0","goog:chromeOptions": {"binary": "\u002fusr\u002fbin\u002fgoogle-chrome"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+chrome-5      | 21:37:27.067 INFO [NodeServer.createHandlers] - Reporting self as: http://172.19.0.9:5555
+chrome-4      | 21:37:27.158 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-5      | 21:37:27.163 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+chrome-2      | 21:37:27.314 INFO [NodeServer$1.start] - Starting registration process for Node http://172.19.0.7:5555
+chrome-2      | 21:37:27.321 INFO [NodeServer.execute] - Started Selenium node 4.17.0 (revision e52b1be057*): http://172.19.0.7:5555
+chrome-5      | 21:37:27.361 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "120.0","goog:chromeOptions": {"binary": "\u002fusr\u002fbin\u002fgoogle-chrome"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+chrome-2      | 21:37:27.392 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub  | 21:37:27.423 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-5      | 21:37:27.489 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-4      | 21:37:27.860 INFO [NodeServer$1.start] - Starting registration process for Node http://172.19.0.8:5555
+chrome-4      | 21:37:27.864 INFO [NodeServer.execute] - Started Selenium node 4.17.0 (revision e52b1be057*): http://172.19.0.8:5555
+chrome-4      | 21:37:27.914 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub  | 21:37:27.953 INFO [GridModel.setAvailability] - Switching Node 4ded0dd5-2047-4f0d-b1ef-23a31a82784d (uri: http://172.19.0.7:5555) from DOWN to UP
+selenium-hub  | 21:37:27.956 INFO [LocalDistributor.add] - Added node 4ded0dd5-2047-4f0d-b1ef-23a31a82784d at http://172.19.0.7:5555. Health check every 120s
+chrome-2      | 21:37:27.963 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub  | 21:37:27.962 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+selenium-hub  | 21:37:27.962 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-hub  |  [Capabilities {browserName: chrome}]
+chrome-5      | 21:37:28.127 INFO [NodeServer$1.start] - Starting registration process for Node http://172.19.0.9:5555
+chrome-5      | 21:37:28.130 INFO [NodeServer.execute] - Started Selenium node 4.17.0 (revision e52b1be057*): http://172.19.0.9:5555
+chrome-5      | 21:37:28.177 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub  | 21:37:28.336 INFO [GridModel.setAvailability] - Switching Node 12309f64-79d1-4974-b691-690697fa7d8e (uri: http://172.19.0.8:5555) from DOWN to UP
+selenium-hub  | 21:37:28.337 INFO [LocalDistributor.add] - Added node 12309f64-79d1-4974-b691-690697fa7d8e at http://172.19.0.8:5555. Health check every 120s
+selenium-hub  | 21:37:28.346 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-4      | 21:37:28.348 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub  | 21:37:28.690 INFO [GridModel.setAvailability] - Switching Node 7fe282fa-b56c-4b0d-a56a-f32bfc830eef (uri: http://172.19.0.9:5555) from DOWN to UP
+selenium-hub  | 21:37:28.691 INFO [LocalDistributor.add] - Added node 7fe282fa-b56c-4b0d-a56a-f32bfc830eef at http://172.19.0.9:5555. Health check every 120s
+chrome-5      | 21:37:28.699 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+chrome-1      | 21:37:30.359 INFO [LocalNode.newSession] - Session created by the Node. Id: 9113c5c0828215a4bb625321db15a3f0, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44329}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.5:4444/sessio..., se:cdpVersion: 120.0.6099.224, se:vnc: ws://172.19.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+chrome-3      | 21:37:30.388 INFO [LocalNode.newSession] - Session created by the Node. Id: 079a6ef91f4d3c5bbb469c7d31c096ac, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44501}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.6:4444/sessio..., se:cdpVersion: 120.0.6099.224, se:vnc: ws://172.19.0.6:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.6:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+selenium-hub  | 21:37:30.481 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: 9113c5c0828215a4bb625321db15a3f0 
+selenium-hub  |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44329}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.19.0.5:4444/sessio..., se:cdpVersion: 120.0.6099.224, se:vnc: ws://172.19.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+selenium-hub  | 21:37:30.490 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: 079a6ef91f4d3c5bbb469c7d31c096ac 
+selenium-hub  |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44501}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.19.0.6:4444/sessio..., se:cdpVersion: 120.0.6099.224, se:vnc: ws://172.19.0.6:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.6:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+chrome-4      | 21:37:32.276 INFO [LocalNode.newSession] - Session created by the Node. Id: c12267e4ad16ebb80ebb414deafc29b3, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46361}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.8:4444/sessio..., se:cdpVersion: 120.0.6099.224, se:vnc: ws://172.19.0.8:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.8:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+selenium-hub  | 21:37:32.327 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: c12267e4ad16ebb80ebb414deafc29b3 
+selenium-hub  |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46361}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.19.0.8:4444/sessio..., se:cdpVersion: 120.0.6099.224, se:vnc: ws://172.19.0.8:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.8:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+chrome-3      | 21:37:33.083 INFO [SessionSlot.stop] - Stopping session 079a6ef91f4d3c5bbb469c7d31c096ac
+selenium-hub  | 21:37:33.092 INFO [GridModel.release] - Releasing slot for session id 079a6ef91f4d3c5bbb469c7d31c096ac
+selenium-hub  | 21:37:33.092 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: 079a6ef91f4d3c5bbb469c7d31c096ac
+chrome-1      | 21:37:34.801 INFO [SessionSlot.stop] - Stopping session 9113c5c0828215a4bb625321db15a3f0
+selenium-hub  | 21:37:34.807 INFO [GridModel.release] - Releasing slot for session id 9113c5c0828215a4bb625321db15a3f0
+selenium-hub  | 21:37:34.807 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: 9113c5c0828215a4bb625321db15a3f0
+chrome-4      | 21:37:35.517 INFO [SessionSlot.stop] - Stopping session c12267e4ad16ebb80ebb414deafc29b3
+selenium-hub  | 21:37:35.522 INFO [GridModel.release] - Releasing slot for session id c12267e4ad16ebb80ebb414deafc29b3
+selenium-hub  | 21:37:35.522 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: c12267e4ad16ebb80ebb414deafc29b3
 chrome-1      | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
-chrome-1      | 2024-02-15 16:39:34,114 WARN received SIGTERM indicating exit request
-chrome-1      | 2024-02-15 16:39:34,119 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+firefox-1     | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
 edge-1        | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
-chrome-3      | 2024-02-15 16:39:34,152 WARN received SIGTERM indicating exit request
-chrome-3      | 2024-02-15 16:39:34,160 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+chrome-3      | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+chrome-5      | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+chrome-2      | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
 chrome-4      | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
-firefox-1     | 2024-02-15 16:39:34,211 WARN received SIGTERM indicating exit request
-firefox-1     | 2024-02-15 16:39:34,212 INFO waiting for xvfb, vnc, novnc, selenium-node to die
-chrome-5      | 2024-02-15 16:39:34,325 WARN received SIGTERM indicating exit request
-chrome-5      | 2024-02-15 16:39:34,334 INFO waiting for xvfb, vnc, novnc, selenium-node to die
-chrome-2      | 2024-02-15 16:39:34,411 WARN received SIGTERM indicating exit request
-chrome-2      | 2024-02-15 16:39:34,412 INFO waiting for xvfb, vnc, novnc, selenium-node to die
-chrome-1      | 2024-02-15 16:39:34,547 INFO stopped: selenium-node (terminated by SIGTERM)
-chrome-3      | 2024-02-15 16:39:34,583 INFO stopped: selenium-node (terminated by SIGTERM)
-chrome-4      | 2024-02-15 16:39:34,639 WARN received SIGTERM indicating exit request
-chrome-4      | 2024-02-15 16:39:34,640 INFO waiting for xvfb, vnc, novnc, selenium-node to die
-chrome-4      | 2024-02-15 16:39:34,655 INFO stopped: selenium-node (terminated by SIGTERM)
-chrome-4      | 2024-02-15 16:39:34,658 INFO stopped: novnc (terminated by SIGTERM)
-firefox-1     | 2024-02-15 16:39:34,664 INFO stopped: selenium-node (terminated by SIGTERM)
-chrome-4      | 2024-02-15 16:39:34,684 INFO stopped: vnc (terminated by SIGTERM)
-chrome-5      | 2024-02-15 16:39:34,716 INFO stopped: selenium-node (terminated by SIGTERM)
-chrome-2      | 2024-02-15 16:39:34,778 INFO stopped: selenium-node (terminated by SIGTERM)
-edge-1        | 2024-02-15 16:39:34,936 WARN received SIGTERM indicating exit request
-edge-1        | 2024-02-15 16:39:34,941 INFO waiting for xvfb, vnc, novnc, selenium-node to die
-edge-1        | 2024-02-15 16:39:35,308 INFO stopped: selenium-node (terminated by SIGTERM)
-chrome-1      | 2024-02-15 16:39:35,549 INFO stopped: novnc (terminated by SIGTERM)
-chrome-3      | 2024-02-15 16:39:35,586 INFO stopped: novnc (terminated by SIGTERM)
-firefox-1     | 2024-02-15 16:39:35,669 INFO stopped: novnc (terminated by SIGTERM)
-chrome-4      | 2024-02-15 16:39:35,687 INFO stopped: xvfb (terminated by SIGTERM)
-chrome-5      | 2024-02-15 16:39:35,720 INFO stopped: novnc (terminated by SIGTERM)
-chrome-2      | 2024-02-15 16:39:35,781 INFO stopped: novnc (terminated by SIGTERM)
+chrome-3      | 2024-02-15 21:37:38,030 WARN received SIGTERM indicating exit request
+chrome-3      | 2024-02-15 21:37:38,030 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+edge-1        | 2024-02-15 21:37:38,085 WARN received SIGTERM indicating exit request
+edge-1        | 2024-02-15 21:37:38,086 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+firefox-1     | 2024-02-15 21:37:38,097 WARN received SIGTERM indicating exit request
+firefox-1     | 2024-02-15 21:37:38,098 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+chrome-4      | 2024-02-15 21:37:38,125 WARN received SIGTERM indicating exit request
+chrome-4      | 2024-02-15 21:37:38,125 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+chrome-2      | 2024-02-15 21:37:38,317 WARN received SIGTERM indicating exit request
+chrome-2      | 2024-02-15 21:37:38,317 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+chrome-3      | 2024-02-15 21:37:38,366 INFO stopped: selenium-node (terminated by SIGTERM)
+edge-1        | 2024-02-15 21:37:38,427 INFO stopped: selenium-node (terminated by SIGTERM)
+firefox-1     | 2024-02-15 21:37:38,439 INFO stopped: selenium-node (terminated by SIGTERM)
+chrome-4      | 2024-02-15 21:37:38,461 INFO stopped: selenium-node (terminated by SIGTERM)
+chrome-5      | 2024-02-15 21:37:38,643 WARN received SIGTERM indicating exit request
+chrome-5      | 2024-02-15 21:37:38,644 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+chrome-2      | 2024-02-15 21:37:38,651 INFO stopped: selenium-node (terminated by SIGTERM)
+chrome-1      | 2024-02-15 21:37:38,788 WARN received SIGTERM indicating exit request
+chrome-1      | 2024-02-15 21:37:38,789 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+chrome-5      | 2024-02-15 21:37:38,985 INFO stopped: selenium-node (terminated by SIGTERM)
+chrome-1      | 2024-02-15 21:37:39,121 INFO stopped: selenium-node (terminated by SIGTERM)
+chrome-3      | 2024-02-15 21:37:39,368 INFO stopped: novnc (terminated by SIGTERM)
+edge-1        | 2024-02-15 21:37:39,429 INFO stopped: novnc (terminated by SIGTERM)
+firefox-1     | 2024-02-15 21:37:39,442 INFO stopped: novnc (terminated by SIGTERM)
+chrome-4      | 2024-02-15 21:37:39,463 INFO stopped: novnc (terminated by SIGTERM)
+chrome-2      | 2024-02-15 21:37:39,654 INFO stopped: novnc (terminated by SIGTERM)
+chrome-5      | 2024-02-15 21:37:39,988 INFO stopped: novnc (terminated by SIGTERM)
+chrome-1      | 2024-02-15 21:37:40,125 INFO stopped: novnc (terminated by SIGTERM)
+chrome-3      | 2024-02-15 21:37:40,370 INFO stopped: vnc (terminated by SIGTERM)
+edge-1        | 2024-02-15 21:37:40,431 INFO stopped: vnc (terminated by SIGTERM)
+firefox-1     | 2024-02-15 21:37:40,443 INFO stopped: vnc (terminated by SIGTERM)
+chrome-4      | 2024-02-15 21:37:40,465 INFO stopped: vnc (terminated by SIGTERM)
+chrome-2      | 2024-02-15 21:37:40,656 INFO stopped: vnc (terminated by SIGTERM)
+chrome-5      | 2024-02-15 21:37:40,990 INFO stopped: vnc (terminated by SIGTERM)
+chrome-1      | 2024-02-15 21:37:41,127 INFO stopped: vnc (terminated by SIGTERM)
+chrome-3      | 2024-02-15 21:37:41,372 INFO stopped: xvfb (terminated by SIGTERM)
+chrome-3      | Shutdown complete
+edge-1        | 2024-02-15 21:37:41,433 INFO stopped: xvfb (terminated by SIGTERM)
+firefox-1     | 2024-02-15 21:37:41,445 INFO stopped: xvfb (terminated by SIGTERM)
+chrome-4      | 2024-02-15 21:37:41,466 INFO stopped: xvfb (terminated by SIGTERM)
+edge-1        | Shutdown complete
+firefox-1     | Shutdown complete
 chrome-4      | Shutdown complete
-edge-1        | 2024-02-15 16:39:36,368 INFO stopped: novnc (terminated by SIGTERM)
-chrome-1      | 2024-02-15 16:39:36,556 INFO stopped: vnc (terminated by SIGTERM)
-chrome-3      | 2024-02-15 16:39:36,587 INFO stopped: vnc (terminated by SIGTERM)
-firefox-1     | 2024-02-15 16:39:36,681 INFO stopped: vnc (terminated by SIGTERM)
-chrome-5      | 2024-02-15 16:39:36,723 INFO stopped: vnc (terminated by SIGTERM)
-chrome-2      | 2024-02-15 16:39:36,784 INFO stopped: vnc (terminated by SIGTERM)
+chrome-2      | 2024-02-15 21:37:41,658 INFO stopped: xvfb (terminated by SIGTERM)
+chrome-2      | Shutdown complete
+chrome-5      | 2024-02-15 21:37:41,992 INFO stopped: xvfb (terminated by SIGTERM)
+chrome-5      | Shutdown complete
+chrome-1      | 2024-02-15 21:37:42,128 INFO stopped: xvfb (terminated by SIGTERM)
+chrome-1      | Shutdown complete
+chrome-3 exited with code 0
+chrome-3 exited with code 143
+firefox-1 exited with code 0
+firefox-1 exited with code 143
 chrome-4 exited with code 0
-edge-1        | 2024-02-15 16:39:37,385 INFO stopped: vnc (terminated by SIGTERM)
-failed to get console mode for stdout: The handle is invalid.
-[1A[1B[0G[?25l[+] Stopping 0/0
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m0.1s [0m
- [33m-[0m Container dockervalidation-chrome-1   Stopping[34m0.1s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m0.1s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m0.1s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m0.1s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m0.1s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 0/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m0.2s [0m
- [33m-[0m Container dockervalidation-chrome-1   Stopping[34m0.2s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m0.2s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m0.2s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m0.2s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m0.2s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 0/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m0.2s [0m
- [33m-[0m Container dockervalidation-chrome-1   Stopping[34m0.3s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m0.3s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m0.3s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m0.3s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m0.3s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 0/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m0.4s [0m
- [33m-[0m Container dockervalidation-chrome-1   Stopping[34m0.4s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m0.4s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m0.4s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m0.4s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m0.4s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 0/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m0.5s [0m
- [33m-[0m Container dockervalidation-chrome-1   Stopping[34m0.5s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m0.5s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m0.5s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m0.5s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m0.5s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 0/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m0.6s [0m
- [33m-[0m Container dockervalidation-chrome-1   Stopping[34m0.6s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m0.6s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m0.6s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m0.6s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m0.6s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 0/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m0.7s [0m
- [33m-[0m Container dockervalidation-chrome-1   Stopping[34m0.7s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m0.7s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m0.7s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m0.7s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m0.7s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 0/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m0.8s [0m
- [33m-[0m Container dockervalidation-chrome-1   Stopping[34m0.8s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m0.8s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m0.8s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m0.8s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m0.8s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 0/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m0.9s [0m
- [33m-[0m Container dockervalidation-chrome-1   Stopping[34m0.9s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m0.9s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m0.9s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m0.9s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m0.9s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 0/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m1.0s [0m
- [33m-[0m Container dockervalidation-chrome-1   Stopping[34m1.0s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m1.0s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m1.0s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m1.0s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m1.0s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 0/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m1.1s [0m
- [33m-[0m Container dockervalidation-chrome-1   Stopping[34m1.1s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m1.1s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m1.1s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m1.1s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m1.1s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 0/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m1.2s [0m
- [33m-[0m Container dockervalidation-chrome-1   Stopping[34m1.2s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m1.2s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m1.2s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m1.2s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m1.2s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 0/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m1.3s [0m
- [33m-[0m Container dockervalidation-chrome-1   Stopping[34m1.3s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m1.3s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m1.3s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m1.3s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m1.3s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 0/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m1.4s [0m
- [33m-[0m Container dockervalidation-chrome-1   Stopping[34m1.4s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m1.4s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m1.4s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m1.4s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m1.4s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 0/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m1.5s [0m
- [33m-[0m Container dockervalidation-chrome-1   Stopping[34m1.5s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m1.5s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m1.5s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m1.5s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m1.5s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 0/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m1.6s [0m
- [33m-[0m Container dockervalidation-chrome-1   Stopping[34m1.6s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m1.6s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m1.6s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m1.6s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m1.6s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 0/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m1.7s [0m
- [33m-[0m Container dockervalidation-chrome-1   Stopping[34m1.7s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m1.7s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m1.7s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m1.7s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m1.7s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 0/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m1.8s [0m
- [33m-[0m Container dockervalidation-chrome-1   Stopping[34m1.8s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m1.8s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m1.8s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m1.8s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m1.8s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 0/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m1.9s [0m
- [33m-[0m Container dockervalidation-chrome-1   Stopping[34m1.9s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m1.9s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m1.9s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m1.9s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m1.9s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 1/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m2.0s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m2.0s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m2.0s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m2.0s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m2.0s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 1/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m2.1s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m2.1s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m2.1s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m2.1s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m2.1s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 1/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m2.2s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m2.2s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m2.2s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m2.2s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m2.2s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 1/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m2.3s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m2.3s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m2.3s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m2.3s [0m
- [33m-[0m Container dockervalidation-chrome-3   Stopping[34m2.3s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 2/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m2.4s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m2.4s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m2.4s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m2.4s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 2/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m2.5s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m2.5s [0m
- [33m-[0m Container dockervalidation-chrome-5   Stopping[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 3/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m2.6s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m2.6s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m2.6s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 3/6
- [33m-[0m Container dockervalidation-firefox-1  Stopping[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m2.7s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 4/6
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [33m-[0m Container dockervalidation-edge-1     Stopping[34m2.8s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 5/6
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m2.9s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 5/6
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [33m-[0m Container dockervalidation-chrome-2   Stopping[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[34m[+] Stopping 6/6[0m
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m0.1s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m0.2s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m0.3s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m0.4s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m0.5s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m0.6s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m0.7s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m0.8s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m0.9s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m1.0s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m1.1s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m1.2s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m1.3s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m1.4s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m1.5s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m1.6s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m1.7s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m1.8s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m1.9s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m2.0s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m2.1s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m2.2s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m2.3s [0m
-[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Stopping 6/7
- [32m✔[0m Container dockervalidation-firefox-1  [32mStopped[0m[34m2.7s [0m
- [32m✔[0m Container dockervalidation-chrome-1   [32mStopped[0m[34m1.9s [0m
- [32m✔[0m Container dockervalidation-edge-1     [32mStopped[0m[34m2.8s [0m
- [32m✔[0m Container dockervalidation-chrome-2   [32mStopped[0m[34m3.0s [0m
- [32m✔[0m Container dockervalidation-chrome-5   [32mStopped[0m[34m2.5s [0m
- [32m✔[0m Container dockervalidation-chrome-3   [32mStopped[0m[34m2.3s [0m
- [33m-[0m Container selenium-hub                Stopping[34m2.4s [0m
-[?25h
+chrome-4 exited with code 143
+edge-1 exited with code 0
+edge-1 exited with code 143
+chrome-2 exited with code 0
+chrome-2 exited with code 143
+chrome-1 exited with code 0
+chrome-1 exited with code 143
+chrome-5 exited with code 0
+selenium-hub  | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+selenium-hub  | 2024-02-15 21:37:44,515 WARN received SIGTERM indicating exit request
+selenium-hub  | 2024-02-15 21:37:44,516 INFO waiting for selenium-grid-hub to die
+selenium-hub  | 2024-02-15 21:37:45,518 INFO stopped: selenium-grid-hub (terminated by SIGTERM)
+selenium-hub  | Shutdown complete
+selenium-hub exited with code 0
