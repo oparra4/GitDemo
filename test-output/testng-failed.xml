@@ -3,6 +3,11 @@
 <suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" parallel="classes" name="Test(failed)">
     <classes>
+      <class name="remoteTest.dockerValidation.chromeTest4">
+        <methods>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- remoteTest.dockerValidation.chromeTest4 -->
       <class name="remoteTest.dockerValidation.chromeTest3">
         <methods>
           <include name="test2"/>
@@ -15,11 +20,6 @@
           <include name="startDockerScale"/>
         </methods>
       </class> <!-- remoteTest.dockerValidation.chromeTest2 -->
-      <class name="remoteTest.dockerValidation.chromeTest4">
-        <methods>
-          <include name="test3"/>
-        </methods>
-      </class> <!-- remoteTest.dockerValidation.chromeTest4 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
